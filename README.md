@@ -34,7 +34,7 @@ iTerm | Visual Studio Code
 1. Make sure to install Homebrew and the Ansible packages:
   `brew install ansible`
 1. Fork this repository:
-  `git clone https://github.com/frdmn/dotfiles ~/.dotfiles`
+  `git clone https://github.com/cad3na/dotfiles ~/.dotfiles`
 1. Run the bootstrap script to initially install and setup the dotfiles:
   `~/.dotfiles/bootstrap`
 
