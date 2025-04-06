@@ -22,12 +22,6 @@
     - role: dotfiles
       tags: ["dotfiles"]
 
-    - role: gem
-      tags: ["gem"]
-
-    - role: npm
-      tags: ["npm"]
-
     - role: mas
       tags: ["mas"]
       when: ansible_distribution == 'MacOSX'
@@ -35,9 +29,6 @@
     - role: macos
       tags: ["macos"]
       when: ansible_distribution == 'MacOSX'
-
-    - role: pip
-      tags: ["pip"]
 
     - role: docker
       tags: ["docker"]

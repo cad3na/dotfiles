@@ -10,20 +10,25 @@ brew_packages:
   - tmux
   - wget
   - zsh
+  - starship
 
 cask_packages:
   - docker
   - font-hack-nerd-font
   - google-chrome
-  - telegram
   - visual-studio-code
   - vlc
+  - autodesk-fusion
+  - raycast
+  - slack
+  - orcaslicer
+  - prusaslicer
+  - parsec
 
 mas_packages:
-  - 1451685025 # Wireguard
-  - 411643860 # DaisyDisk
-  - 1295203466 # Microsoft Remote Desktop
-  - 408981434 # iMovie
-  - 430255202 # Mactracker
-  - 409183694 # Keynote
-  - 1289583905 # Pixelmator Pro
+  - 1616822987 # Affinity Photo
+  - 1616831348 # Affinity Designer
+  - 1606941598 # Affinity Publisher
+  - 462058435 # Microsof Excel
+  - 310633997 # Whatsapp
+  - 747648890 # Telegram
