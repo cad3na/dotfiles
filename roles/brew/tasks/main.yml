@@ -1,9 +1,4 @@
 ---
-- name: "[ homebrew] Configure Homebrew taps"
-  homebrew_tap:
-    name: "{{ item }}"
-  loop: "{{ brew_taps }}"
-
 - name: "[ homebrew] Install Homebrew formulae"
   homebrew:
     name: "{{ item }}"
