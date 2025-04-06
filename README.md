@@ -1,15 +1,7 @@
 dotfiles
 ========
 
-[![GitHub branch checks state](https://img.shields.io/github/checks-status/frdmn/dotfiles/master)](https://github.com/frdmn/dotfiles/actions/workflows/ci.yml)
-![GitHub Repo stars](https://img.shields.io/github/stars/frdmn/dotfiles)
-[![GitHub](https://img.shields.io/github/license/frdmn/dotfiles)](https://github.com/frdmn/dotfiles)
-
 [Ansible](https://www.ansible.com/)-based dotfile setup for macOS systems that is really simple and easy to understand.
-
-iTerm | Visual Studio Code
---- | ---
-[![](https://asciinema.org/a/cPPgWS3Ju2twoyl7U5UfFYOYI.svg)](https://asciinema.org/a/cPPgWS3Ju2twoyl7U5UfFYOYI) <center></center> | ![](https://i.imgur.com/abpdBUY.png)
 
 ### Features
 
@@ -17,12 +9,8 @@ iTerm | Visual Studio Code
     * bash/zsh configuration files
     * Homebrew and Cask packages
     * Mac App Store apps
-    * Node `npm` packages
-    * Ruby `gem` packages
-    * Python `pip` packages
     * macOS `defaults` (plist settings)
 * Docker host cleanup/prune
-* [Vundle](https://github.com/gmarik/Vundle.vim) VIm plugin manager
 * Fish-like auto autosuggestions in ZSH ([zsh-autosuggestions](https://github.com/tarruda/zsh-autosuggestions) plugin)
 * Several additional, preconfigured ZSH plugins (using [zplug](https://github.com/zplug/zplug)):
     * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) plugin
@@ -45,14 +33,14 @@ iTerm | Visual Studio Code
 2. Fork this repository:
 
     ```bash
-    git clone https://github.com/frdmn/dotfiles ~/.dotfiles
+    git clone git@github.com:cad3na/dotfiles.git ~/.dotfiles
     ```
 
 3. Copy and adjust the default configuration file:
 
     ```bash
     cp ~/.dotfiles/config.defaults.yml ~/.dotfiles/config.yml
-    vi ~/.dotfiles/config.yml
+    nano ~/.dotfiles/config.yml
     ```
 
 4. Run the dotfile wrapper with the `--bootstrap` switch to initially install and setup the dotfiles and its components:
