@@ -19,6 +19,7 @@ setopt no_list_beep            # Don't beep on an ambiguous completion
 unsetopt menu_complete         # Dont insert completion results immedietly
 unsetopt beep                  # Don't beep
 unsetopt correct_all           # Don't try to autocorrect all arguments
+unsetopt correct
 
 # History
 
