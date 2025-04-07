@@ -16,17 +16,11 @@ fi
 # Yellow (temp) autosuggested string
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=3"
 
-# Go
-export GOPATH=$HOME/.go
-
 # Set dev.sh (https://github.com/frdmn/dev-sh) project path
 export devsearch_projectspath="${HOME}/Development"
 
 # $EDITOR
 export EDITOR="nano"
-
-# Gem Home dir
-export GEM_HOME="$HOME/.gem"
 
 # Update locale
 export LANG="en_US.UTF-8"
