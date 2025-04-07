@@ -24,11 +24,9 @@ cask_packages:
   - orcaslicer
   - prusaslicer
   - parsec
-
-mas_packages:
-  - 1616822987 # Affinity Photo
-  - 1616831348 # Affinity Designer
-  - 1606941598 # Affinity Publisher
-  - 462058435 # Microsof Excel
-  - 310633997 # Whatsapp
-  - 747648890 # Telegram
+  - affinity-designer
+  - affinity-photo
+  - affinity-publisher
+  - whatsapp
+  - telegram
+  - microsoft-excel
