@@ -5,28 +5,34 @@ brew_packages:
   - bat
   - eza
   - ffmpeg
+  - git
+  - git-extras
   - iperf
   - mas
-  - tmux
+  - starship
+  - uv
   - wget
   - zsh
-  - starship
 
 cask_packages:
-  - docker
-  - font-hack-nerd-font
-  - google-chrome
+  - ghostty
+  - zed
+  - miniconda
   - visual-studio-code
+  - font-hack-nerd-font
+  - slack
+  - parsec
+  - whatsapp
+  - telegram
+  - raycast
+  - docker
+  - google-chrome
   - vlc
   - autodesk-fusion
-  - raycast
-  - slack
   - orcaslicer
   - prusaslicer
-  - parsec
   - affinity-designer
   - affinity-photo
   - affinity-publisher
-  - whatsapp
-  - telegram
   - microsoft-excel
+  - steam

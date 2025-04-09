@@ -1,10 +1,10 @@
 ---
-- name: "[ homebrew] Install Homebrew formulae"
+- name: "[ homebrew] Install Homebrew formulae"
   homebrew:
     name: "{{ item }}"
   loop: "{{ brew_packages }}"
 
-- name: "[ homebrew] Install Homebrew casks"
+- name: "[ homebrew] Install Homebrew casks"
   homebrew_cask:
     name: "{{ item }}"
   loop: "{{ cask_packages }}"
