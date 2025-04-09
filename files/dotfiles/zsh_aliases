@@ -62,18 +62,6 @@ alias flush="dscacheutil -flushcache"
 alias sniff="sudo ngrep -d 'en1' -t '^(GET|POST) ' 'tcp and port 80'"
 alias httpdump="sudo tcpdump -i en1 -n -s 0 -w - | grep -a -o -E \"Host\: .*|GET \/.*\""
 
-# Force tmux to use 256 color terminal
-alias tmux="tmux -2"
-
-# Kill all tmux sessions
-alias tmux-kill="tmux ls | sed 's/:.*//g' | xargs -I{} tmux kill-session -t {}"
-
-# Update locatedb
-alias updatedb="sudo /usr/libexec/locate.updatedb"
-
-# Always use vim instead of vi
-alias vi="vim"
-
 # Always return full history
 alias history="history 1"
 
@@ -84,6 +72,3 @@ alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
 alias hastebin="HASTE_SERVER=http://paste.frd.mn hastebin"
 alias haste="hastebin"
 alias paste="haste"
-
-alias pip="pip3 "
-alias python="python3 "

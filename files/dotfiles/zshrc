@@ -95,7 +95,7 @@ zplug "marzocchi/zsh-notify"
 
 # Load theme
 zplug mafredri/zsh-async, from:github
-zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
+# zplug "sindresorhus/pure", use:pure.zsh, from:github, as:theme
 
 # Completions
 zplug "docker/cli", use:contrib/completion/zsh
@@ -150,8 +150,10 @@ bindkey '^[[B' history-substring-search-down
 ###
 
 # Single line prompt
-prompt_newline='%666v'
-PROMPT=" $PROMPT"
+# prompt_newline='%666v'
+# PROMPT=" $PROMPT"
+
+eval "$(starship init zsh)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
