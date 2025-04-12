@@ -36,6 +36,7 @@ cask_packages:
   - affinity-publisher
   - microsoft-excel
   - steam
+  - obsidian
 
 mas_packages:
-  -
+  - remarkable
