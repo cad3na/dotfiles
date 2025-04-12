@@ -92,6 +92,8 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "marzocchi/zsh-notify"
+zplug "junegunn/fzf", from:gh-r, as:command, use:"*darwin*amd64*"
+
 
 # Load theme
 zplug mafredri/zsh-async, from:github
@@ -100,7 +102,6 @@ zplug mafredri/zsh-async, from:github
 # Completions
 zplug "docker/cli", use:contrib/completion/zsh
 zplug "docker/compose", use:contrib/completion/zsh
-zplug "lukechilds/zsh-better-npm-completion", defer:2
 
 # Install packages that have not been installed yet
 if ! zplug check --verbose; then
@@ -154,6 +155,7 @@ bindkey '^[[B' history-substring-search-down
 # PROMPT=" $PROMPT"
 
 eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

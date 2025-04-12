@@ -14,6 +14,7 @@ brew_packages:
   - wget
   - zsh
   - zplug
+  - zoxide
 
 cask_packages:
   - ghostty
