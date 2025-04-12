@@ -92,7 +92,6 @@ zplug "zsh-users/zsh-syntax-highlighting", defer:2
 zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "marzocchi/zsh-notify"
-zplug "junegunn/fzf", from:gh-r, as:command, use:"*darwin*amd64*"
 
 
 # Load theme
@@ -156,6 +155,7 @@ bindkey '^[[B' history-substring-search-down
 
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
+source <(fzf --zsh)
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
