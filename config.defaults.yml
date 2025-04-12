@@ -36,3 +36,6 @@ cask_packages:
   - affinity-publisher
   - microsoft-excel
   - steam
+
+mas_packages:
+  -
