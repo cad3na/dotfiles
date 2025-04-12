@@ -39,4 +39,4 @@ cask_packages:
   - obsidian
 
 mas_packages:
-  - remarkable
+  - 1276493162 # reMarkable Desktop

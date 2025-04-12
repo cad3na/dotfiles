@@ -26,8 +26,9 @@ dotfiles
 1. Make sure to uprade Pip Homebrew before installing Ansible:
 
     ```bash
-    sudo pip3 install --upgrade pip
-    pip3 install ansible
+    brew install pipx
+    pipx install ansible
+    pipx inject ansible requests
     ```
 
 2. Fork this repository:
