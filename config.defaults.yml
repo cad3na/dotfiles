@@ -17,6 +17,11 @@ brew_packages:
   - zoxide
   - fzf
   - yazi
+  - fd
+  - ripgrep
+  - neovim
+  - helix
+  - ruff
 
 cask_packages:
   - ghostty
