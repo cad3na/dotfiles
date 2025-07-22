@@ -9,3 +9,5 @@ vim.lsp.config('ruff', {
 })
 
 vim.lsp.enable('ruff')
+
+vim.diagnostic.config({ virtual_text = true })
