@@ -3,3 +3,9 @@
 
 # dotfiles config/overrides
 config.yml
+
+# Configs to ignore
+files/dotfiles/config/Autodesk
+files/dotfiles/config/fontforge
+files/dotfiles/config/github-copilot
+files/dotfiles/config/raycast
