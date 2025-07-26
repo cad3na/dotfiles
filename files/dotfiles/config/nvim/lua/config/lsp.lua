@@ -1,9 +1,17 @@
 vim.lsp.config('ruff', {
   init_options = {
     settings = {
-      logLevel = 'debug',
+      configurationPreference = "filesystemFirst",
+      exclude = {'**/tests/**'},
+      logLevel = 'info',
       lineLength = 120,
-      -- Ruff language server settings go here
+      fixAll = false,
+      showSyntaxErrors = true,
+      lint = {
+	enable = true,
+	preview = true,
+	ignore = {}
+      }
     }
   }
 })
