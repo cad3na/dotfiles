@@ -22,6 +22,7 @@ brew_packages:
   - neovim
   - helix
   - ruff
+  - lazygit
 
 cask_packages:
   - ghostty
