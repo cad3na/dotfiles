@@ -23,6 +23,7 @@ brew_packages:
   - helix
   - ruff
   - lazygit
+  - npm
 
 cask_packages:
   - ghostty
