@@ -3,14 +3,13 @@ vim.lsp.config('ruff', {
         settings = {
             configurationPreference = "filesystemFirst",
             exclude = {'**/tests/**'},
-            logLevel = 'info',
+            logLevel = 'debug',
             lineLength = 120,
             fixAll = false,
             showSyntaxErrors = true,
             lint = {
-	            enable = true,
-	            preview = true,
-	            ignore = {}
+                enable = true,
+                ignore = { "E402" }
             }
         }
     }
@@ -30,8 +29,6 @@ vim.lsp.config('pyright', {
         }
     }
 })
--- vim.lsp.enable('ruff')
--- vim.lsp.enable('pyright')
 
 vim.diagnostic.config({
     virtual_text = true
