@@ -25,7 +25,8 @@ vim.lsp.config('pyright', {
                         '/Users/roberto/wylie/nuke-scripts/scripts/',
                         '/Users/roberto/wylie/nuke-scripts/scripts/jobs/'
                 }
-            }
+            },
+            pythonPath = '/opt/homebrew/Caskroom/miniconda/base/envs/exploration/bin/python'
         }
     }
 })
