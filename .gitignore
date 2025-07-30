@@ -9,3 +9,7 @@ files/dotfiles/config/Autodesk
 files/dotfiles/config/fontforge
 files/dotfiles/config/github-copilot
 files/dotfiles/config/raycast
+
+# lock files
+files/dotfiles/config/nvim/lazy-lock.json
+
