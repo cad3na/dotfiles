@@ -1,0 +1,8 @@
+font-size=14
+window-inherit-font-size=false
+window-padding-x=10
+window-padding-y=10
+window-height=35
+window-width=140
+
+theme = "/Users/roberto/.config/ghostty/tokyonight_night"
