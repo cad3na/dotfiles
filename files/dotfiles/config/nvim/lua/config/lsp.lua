@@ -16,10 +16,11 @@ vim.lsp.config('ruff', {
     on_attach = function(client) client.server_capabilities.hoverProvider = false end
 })
 
-vim.lsp.config('pyright', {
+vim.lsp.config('basedpyright', {
     settings = {
-        python = {
+        basedpyright = {
             analysis = {
+                typeCheckingMode = "standard",
                 extraPaths = {
                     '/Users/roberto/wylie/pipeline-modules/',
                     '/Users/roberto/wylie/nuke-scripts/scripts/',
@@ -38,7 +39,11 @@ vim.lsp.config("lua_ls", {
     settings = {
         Lua = {
             diagnostics = {
-                globals = { "vim" }}}}})
+                globals = { "vim" }
+            }
+        }
+    }
+})
 
 vim.diagnostic.config({
     virtual_text = true
