@@ -12,7 +12,8 @@ vim.lsp.config('ruff', {
                 ignore = { "E402" }
             }
         }
-    }
+    },
+    on_attach = function(client) client.server_capabilities.hoverProvider = false end
 })
 
 vim.lsp.config('pyright', {
