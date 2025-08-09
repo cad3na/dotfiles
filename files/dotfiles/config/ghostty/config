@@ -1,8 +1,10 @@
-font-size=14
-window-inherit-font-size=false
-window-padding-x=10
-window-padding-y=10
-window-height=35
-window-width=140
+font-size = 14
+font-feature = calt off, liga off, dlig off
+
+window-inherit-font-size = false
+window-padding-x = 10
+window-padding-y = 10
+window-height = 40
+window-width = 160
 
 theme = "/Users/roberto/.config/ghostty/tokyonight_night"
