@@ -90,3 +90,5 @@ require('lualine').setup {
     inactive_winbar = {},
     extensions = {}
 }
+
+require('telescope').load_extension('fzf')
