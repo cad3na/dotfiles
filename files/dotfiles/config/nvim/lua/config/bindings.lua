@@ -16,5 +16,5 @@ vim.keymap.set('n', '<leader>td', function()
 end, { silent = true, noremap = true, desc = 'Toggle Diagnostics' })
 
 vim.keymap.set('n', '<leader>fc', function()
-    require('telescope.builtin').find_files { cwd = vim.fn.stdpath('config') }
-end, {desc = 'Telescope config files' })
+    builtin.find_files { cwd = vim.fn.stdpath('config') }
+end, { desc = 'Telescope config files' })
