@@ -39,7 +39,7 @@ require("lazy").setup({
 require('lualine').setup {
     options = {
         icons_enabled = true,
-        theme = 'tomorrow_night',
+        theme = 'tokyonight',
         component_separators = { left = '', right = ''},
         section_separators = { left = '', right = ''},
         disabled_filetypes = {
@@ -92,3 +92,10 @@ require('lualine').setup {
 }
 
 require('telescope').load_extension('fzf')
+
+require("nvim-treesitter.configs").setup {
+    highlight = {
+        enable = true,
+        additional_vim_regex_highlighting = false
+    }
+}
