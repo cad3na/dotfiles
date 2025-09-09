@@ -99,3 +99,8 @@ require("nvim-treesitter.configs").setup {
         additional_vim_regex_highlighting = false
     }
 }
+
+require("virt-column").setup {
+    enabled = true,
+    virtcolumn = "+1,80,120"
+}
