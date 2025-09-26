@@ -11,3 +11,7 @@ vim.opt.clipboard = "unnamedplus"
 
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+
+
+vim.g.python_host_prog = '/opt/homebrew/Caskroom/miniconda/base/envs/neovim/bin/python'
+vim.g.python3_host_prog = '/opt/homebrew/Caskroom/miniconda/base/envs/neovim/bin/python'
