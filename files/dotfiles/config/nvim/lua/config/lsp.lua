@@ -16,24 +16,22 @@ vim.lsp.config('ruff', {
     on_attach = function(client) client.server_capabilities.hoverProvider = false end
 })
 
-vim.lsp.config('basedpyright', {
+vim.lsp.config('ty', {
     settings = {
-        basedpyright = {
-            analysis = {
-                diagnosticMode = "openFilesOnly",
-                typeCheckingMode = "standard",
-                extraPaths = {
-                    '/Users/roberto/wylie/pipeline-modules/',
-                    -- '/Users/roberto/wylie/nuke-scripts/scripts/',
-                    -- '/Users/roberto/wylie/nuke-scripts/scripts/jobs/',
-                    'C:/Users/rob/src/pipeline-modules',
-                    -- 'C:/Users/rob/src/nuke-scripts/scripts',
-                    -- 'C:/Usres/rob/src/nuke-scripts/scripts/jobs'
+        ty = {
+            -- ty language server settings go here
+            configuration = {
+                environment = {
+                    ["extra-paths"] = {
+                        "/Users/roberto/wylie/pipeline-modules/"
+                    }
                 }
             }
         }
     }
 })
+
+vim.lsp.enable('ty')
 
 vim.lsp.config("lua_ls", {
     settings = {
