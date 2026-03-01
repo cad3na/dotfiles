@@ -104,3 +104,5 @@ require("virt-column").setup {
     enabled = true,
     virtcolumn = "+1,80,120"
 }
+
+require("Comment").setup()
