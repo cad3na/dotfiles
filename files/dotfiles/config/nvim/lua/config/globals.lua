@@ -9,6 +9,12 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.clipboard = "unnamedplus"
 
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+vim.opt.foldlevelstart = 1
+vim.opt.foldlevel = 99
+
+
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
 
