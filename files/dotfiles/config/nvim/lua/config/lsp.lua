@@ -19,7 +19,9 @@ vim.lsp.config('ruff', {
 vim.lsp.config('ty', {
     settings = {
         ty = {
-            -- ty language server settings go here
+            completions = {
+                autoImport = false,
+            },
             configuration = {
                 environment = {
                     ["extra-paths"] = {
