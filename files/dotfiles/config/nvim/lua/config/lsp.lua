@@ -54,5 +54,6 @@ vim.lsp.config("tinymist", {
 })
 
 vim.diagnostic.config({
-    virtual_text = true
+    virtual_text = true,
+    update_in_insert = true
 })
