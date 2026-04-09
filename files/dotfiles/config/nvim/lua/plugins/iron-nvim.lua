@@ -24,18 +24,13 @@ return {
 			-- to open in a horizontal split to the bottom, with a height of 10.
 			repl_open_cmd = "horizontal bot 10 split",
 
-			-- This defines which binary to use for the REPL. If `ipython` is
-			-- available, it will use `ipython`, otherwise it will use `python3`.
-			-- since the python repl does not play well with indents, it's
-			-- preferable to use `ipython` or `bypython` here.
-			-- (see: https://github.com/Vigemus/iron.nvim/issues/348)
+			-- IPython from conda env "exploration" (same stack as your project work).
+			-- Plain python repl is poor with indents; see iron.nvim#348.
 			repl_definition = {
 				python = {
-					command = function()
-						local ipythonAvailable = vim.fn.executable("ipython") == 1
-						local binary = ipythonAvailable and "ipython" or "python3"
-						return { binary }
-					end,
+					command = {
+						"/opt/homebrew/Caskroom/miniconda/base/envs/exploration/bin/ipython",
+					},
 				},
 			},
 		},
