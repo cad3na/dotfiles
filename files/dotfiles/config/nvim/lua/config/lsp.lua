@@ -3,7 +3,7 @@ vim.lsp.config('ruff', {
         settings = {
             configurationPreference = "filesystemFirst",
             exclude = {'**/tests/**'},
-            logLevel = 'debug',
+            logLevel = 'error',
             lineLength = 120,
             fixAll = false,
             showSyntaxErrors = true,
